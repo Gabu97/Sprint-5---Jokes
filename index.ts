@@ -40,9 +40,9 @@ const getTheJokeAsync = async () => {
         result!.innerHTML = `
         <p>${data.joke}</p>
        <div> 
-       <a href="#" class="btn" name="score1"><img src="./blob/score1.svg" alt="1" width="30px" id="vote"/></a>
-        <a href="#" class="btn" name="score2"><img src="./blob/score2.svg" alt="2" width="30px" id="vote"/></a>
-        <a href="#" class="btn" name="score3"><img src="./blob/score3.svg" alt="3" width="30px" id="vote"/></a>
+     <img src="./blob/score1.svg" alt="1" width="50px"  class="btn" name="score1" id="scores"/>
+     <img src="./blob/score2.svg" alt="2" width="50px"  class="btn" name="score2" id="scores"/>
+     <img src="./blob/score3.svg" alt="3" width="50px"  class="btn" name="score3" id="scores"/>
        </div> `;
       });
   } catch (error) {
@@ -63,9 +63,10 @@ const getTheJokeAsyncNorris = async () => {
 
         result!.innerHTML = `<div>
               <p>${norris.value}</p>
-             <div> <a href="#" class="btn" name="score1"></a>
-              <a href="#" class="btn" name="score2">2</a>
-              <a href="#" class="btn" name="score3">3</a>
+             <div> 
+             <img src="./blob/score1.svg" alt="1" width="50px"  class="btn" name="score1" id="scores"/>
+             <img src="./blob/score2.svg" alt="2" width="50px"  class="btn" name="score2" id="scores"/>
+             <img src="./blob/score3.svg" alt="3" width="50px"  class="btn" name="score3" id="scores"/>
              </div>
              </div> `;
       });

@@ -33,9 +33,11 @@
     width: 25%;
     margin: auto;
 }
-#vote:hover{
-   background-color: antiquewhite!important; 
-   border-radius: 50%;
+#scores:hover{
+background-color: aliceblue;
+border-radius: 100px;
+width: 50px;
+
 }
 @media (max-width: 600px) {
   #blob {
