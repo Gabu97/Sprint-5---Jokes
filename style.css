@@ -1,18 +1,69 @@
-.h1{
-    font-size: 10px!important;
+.h1 {
+  font-size: 10px !important;
 }
 
-#blob{
-    background: url(./blob/blob.svg);
- background-size:750px!important;
- background-repeat: no-repeat;
- background-position: center;
-height: 500px!important;
-color: antiquewhite!important;
+#blob {
+  background: url(./blob/blob.svg);
+  background-size: 850px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px !important;
+  color: antiquewhite !important;
 }
 
-#jokess{
-text-align: end;
-margin: auto;
+#jokess {
+  text-align: end;
+  margin: auto;
+  width: 25% !important;
 }
 
+#jokis {
+  width: 25% !important;
+  margin-top: 50px !important;
+}
+#areyou {
+  width: 25%;
+}
+
+#clickonme{
+    width:25%;
+    margin: auto;
+}
+#buttonclick{
+    width: 25%;
+    margin: auto;
+}
+#vote:hover{
+   background-color: antiquewhite!important; 
+   border-radius: 50%;
+}
+@media (max-width: 600px) {
+  #blob {
+    background: url(./blob/bolb4.svg);
+    background-size: 650px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px !important;
+    color: antiquewhite !important;
+  }
+  #areyou {
+    width: 50%;
+  }
+  #jokess {
+    text-align: end;
+    margin: auto;
+    width: 200px;
+  }
+  #jokis {
+    width: 50% !important;
+    margin-top: 20px !important;
+  }
+  #clickonme{
+    width:50%;
+    margin: auto;
+}
+#buttonclick{
+    width: 50%;
+    margin: auto;
+}
+}
